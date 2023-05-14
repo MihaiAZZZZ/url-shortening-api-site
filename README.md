@@ -5,7 +5,7 @@ Shortly URL shortening API Challenge solution
 ![](./screenshot.jpg)
 
 ### Links
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://mihaiazzzz.github.io/url-shortening-api-site/](https://mihaiazzzz.github.io/url-shortening-api-site/)
 
 ### Built with
 
