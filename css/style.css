@@ -1,0 +1,185 @@
+body{
+    font-family: 'Poppins', sans-serif !important;
+}
+
+.navbar{
+    margin-top: 20px;
+}
+.navbar-brand{
+    font-weight: 800;
+    font-size: 35px;
+}
+
+.navbar-nav{
+    color: rgb(205, 198, 198);
+    font-weight: 700;
+    font-size: 15px;
+}
+
+.signup{
+    background: hsl(180, 66%, 49%);
+    color: white;
+    border-radius: 40px;
+}
+
+.hero{
+    margin-top: 100px;
+}
+
+.hero-title h1{
+    font-weight: 800;
+    font-size: 50px;
+    color: rgb(52, 52, 52);
+}
+
+.hero-description{
+    color: grey;
+}
+
+.herobutton{
+    background-color:hsl(180, 66%, 49%);
+    border: 0;
+    padding: .7rem;
+    padding-left: 30px;
+    padding-right: 30px;
+}
+
+.herobutton:hover{
+    background-color:hsl(180, 68%, 59%);
+    
+}
+
+
+.short{
+    background-color: hsl(257, 27%, 26%);
+    border-radius: 20px;
+    background-image:url('../images/bg-shorten-desktop.svg') ;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.shorten:hover{
+    background-color:hsl(180, 68%, 59%);
+    
+}
+
+.shorten{
+    background-color:hsl(180, 66%, 49%);
+    border: 0;
+    padding: .7rem;
+    padding-left: 30px;
+    padding-right: 30px;
+    border-radius: 13px;
+}
+
+.statistics-title h2{
+        padding-top: 2rem;
+        color: hsl(255deg, 11%, 22%);
+}
+
+.statistics-content .card-img-top {
+    width: 70px;
+    height: 70px;
+    padding: 1rem;
+    background: hsl(257deg, 27%, 26%);
+    position: relative;
+    margin-top: -31px;
+    margin-left: 1.5rem;
+  }
+
+
+  .statistics-header{
+    padding: 3rem;
+  }
+
+  .statistics-content .card-body h5 {
+    font-weight: bold;
+    color: hsl(255deg, 11%, 22%);
+  }
+  .statistics-content .card-body p {
+    font-weight: 500;
+    font-size: 15px;
+    color: hsl(257deg, 7%, 63%);
+  }
+  
+  .statistics-content {
+    padding-bottom: 45px;
+    padding-left: 25px;
+    padding-right: 25px;
+  }
+
+  .boost-title{
+    margin-top: 6rem;
+    padding: 3rem;
+  }
+
+  .boost{
+    background-color: hsl(257, 27%, 26%); 
+    background-image: url('../images/bg-boost-desktop.svg');
+    background-size: 100% 100%;
+}
+
+
+  .boost-title{
+    color: white;
+    font-weight: 900;
+  }
+
+  .boost-button{
+    border-bottom: 50px;
+    padding-bottom: 50px;
+  }
+
+  footer {
+    padding: 2rem;
+  }
+  
+  .footer-logo {
+    background-color: #fff;
+    -webkit-mask: url("../images/logo.svg") no-repeat;
+    mask: url("../images/logo.svg") no-repeat;
+  }
+  
+  .footer-link {
+    color: hsl(0deg, 0%, 75%);
+  }
+  .footer-link:hover, .footer-link:active {
+    transition: 0.2s;
+    color: hsl(180deg, 66%, 49%);
+  }
+  
+  .footer-social i {
+    color: #fff;
+    font-size: 28px;
+    transition: 0.2s;
+  }
+  .footer-social i:hover {
+    color: hsl(180deg, 66%, 49%);
+  }
+
+@media screen and (max-width:768px) {
+    .hero{
+        text-align: center;
+    }
+
+    .statistics-content {
+        margin-top: 1rem;
+        padding-top: 2rem;
+      }
+}
+
+
+
+.card{
+  border-radius: 20px;
+  -webkit-box-shadow: 2px 4px 18px 1px rgba(0,0,0,0.39); 
+box-shadow: 2px 4px 18px 1px rgba(0,0,0,0.39);  
+}
+
+
+@media only screen and (max-width: 768px) {
+    .statistics-content .card {
+      margin-top: 4rem;
+    }
+}
+
